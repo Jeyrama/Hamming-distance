@@ -17,3 +17,6 @@ Examples:
 
 You can assume that the two inputs are ASCII strings of equal length.
 */
+
+
+// Solution
