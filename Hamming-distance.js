@@ -26,3 +26,11 @@ function hamming(a,b) {
 }
 
 // or
+
+function hamming(a,b) {
+	let s = 0;
+  for (let i = 0; i < a.length; i++)
+    if (a.charAt(i) != b.charAt(i))
+      s++;
+  return s;
+}
