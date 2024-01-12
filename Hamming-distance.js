@@ -20,3 +20,7 @@ You can assume that the two inputs are ASCII strings of equal length.
 
 
 // Solution
+
+function hamming(a,b) {
+  return a.split('').filter(function(v,i) {return a[i]!=b[i]}).length;
+}
